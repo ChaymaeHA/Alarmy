@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4ECEF">
+
+    <TimePicker
+        android:id="@+id/picker"
+        android:layout_width="279dp"
+        android:layout_height="241dp"
+        android:layout_centerInParent="true"
+        android:timePickerMode="spinner"
+        android:numbersBackgroundColor="@color/black"
+        android:numbersInnerTextColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:backgroundTint="#F44336"
+            android:text="Cancel"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/validate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:backgroundTint="#F44336"
+            android:text="Validate"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>
